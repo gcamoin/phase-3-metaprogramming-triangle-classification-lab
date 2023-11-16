@@ -17,7 +17,7 @@ class Triangle
       :scalene
     end
   end
-
+  
   def sides_greater_than_zero?
     [a, b, c].all?(&:positive?)
   end
@@ -32,5 +32,7 @@ class Triangle
 
   class TriangleError < StandardError
   end
+
+  
 
 end
